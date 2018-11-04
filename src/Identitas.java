@@ -35,4 +35,11 @@ public class Identitas {
     public void setUsia(int usia){
         this.usia = usia;
     }
+    public String info(){
+        String info = "";
+        info += "Nama :" +this.nama+"\n";
+        info += "Usia :" +this.usia+"\n";
+        info +="Alamat :"+this.alamat+"\n";
+        return info;
+    }
 }
