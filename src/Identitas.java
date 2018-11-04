@@ -26,7 +26,7 @@ public class Identitas {
     public String getAlamat(){
         return alamat;
     }
-     public void setNama(int usia){
+     public void setNama(String usia){
         this.nama = nama;
     }
     public void setAlamat(String alamat){
