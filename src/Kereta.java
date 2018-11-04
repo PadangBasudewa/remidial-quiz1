@@ -16,4 +16,11 @@ public class Kereta {
     public Kereta (){
         
     }
+    public String getNamaKereta(){
+        return namaKereta;
+    }
+    public int getGerbong(){
+        return gerbong;
+    }
+    
 }
