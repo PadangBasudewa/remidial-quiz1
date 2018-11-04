@@ -28,5 +28,10 @@ public class Detail {
     public void setKereta(Kereta kereta) {
         this.kereta = kereta;
     }
-    
+    public Tiket getTiket() {
+        return tiket;
+    }
+    public void setTiket(Tiket tiket) {
+        this.tiket = tiket;
+    }
 }
