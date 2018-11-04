@@ -26,4 +26,13 @@ public class Identitas {
     public String getAlamat(){
         return alamat;
     }
+     public void setNama(int usia){
+        this.nama = nama;
+    }
+    public void setAlamat(String alamat){
+        this.alamat = alamat;
+    }
+    public void setUsia(int usia){
+        this.usia = usia;
+    }
 }
