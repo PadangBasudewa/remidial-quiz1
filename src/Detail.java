@@ -22,5 +22,11 @@ public class Detail {
     public void setIdentitas(Identitas identitas) {
         this.identitas = identitas;
     }
+    public Kereta getKereta() {
+        return kereta;
+    }
+    public void setKereta(Kereta kereta) {
+        this.kereta = kereta;
+    }
     
 }
