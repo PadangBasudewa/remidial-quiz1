@@ -17,4 +17,13 @@ public class Identitas {
     public Identitas(){
         
     }
+    public String getNama(){
+      return nama;  
+    }
+    public int getUsia(){
+        return usia;
+    }
+    public String getAlamat(){
+        return alamat;
+    }
 }
