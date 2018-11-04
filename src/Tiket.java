@@ -14,7 +14,7 @@ public class Tiket {
     private int noDuduk;
     private double hargaTiket;
     
-    private Tiket(){
+    public Tiket(){
         
     }
     public String getTujuan(){
