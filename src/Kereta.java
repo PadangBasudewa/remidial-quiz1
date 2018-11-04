@@ -28,4 +28,10 @@ public class Kereta {
     public void setGerbong(int gerbong){
         this.gerbong = gerbong;
     }
+    public String info(){
+        String info = "";
+        info += "Nama Kereta:"+this.namaKereta+"\n";
+        info += "No Gerbong:" +this.gerbong+"\n";
+        return info;
+    }
 }
