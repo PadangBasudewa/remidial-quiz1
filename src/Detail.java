@@ -34,4 +34,11 @@ public class Detail {
     public void setTiket(Tiket tiket) {
         this.tiket = tiket;
     }
+    public String info(){
+        String info="";
+        info += this.identitas.info();
+        info += this.tiket.info();
+        info += this.kereta.info();
+        return info;
+    }
 }
