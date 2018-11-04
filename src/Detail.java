@@ -16,5 +16,11 @@ public class Detail {
 
     public Detail() {
     }
+    public Identitas getIdentitas() {
+        return identitas;
+    }
+    public void setIdentitas(Identitas identitas) {
+        this.identitas = identitas;
+    }
     
 }
