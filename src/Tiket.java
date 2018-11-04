@@ -35,5 +35,12 @@ public class Tiket {
     public void setHargaTiket(double hargaTiket){
         this.hargaTiket = hargaTiket;
     }
+    public String info(){
+        String info = "";
+        info += "Tujuan" + this.tujuan +"\n";
+        info += "Tempat Duduk:"+this.noDuduk+"\n";
+        info += "Harga Tiket:" + this.hargaTiket + "\n";
+        return info;
+    }
     
 }
