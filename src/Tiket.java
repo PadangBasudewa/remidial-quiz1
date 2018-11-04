@@ -17,5 +17,14 @@ public class Tiket {
     private Tiket(){
         
     }
+    public String getTujuan(){
+        return tujuan;
+    }
+    public int getNoDuduk(){
+        return noDuduk;
+    }
+    public double HargaTiket(){
+        return hargaTiket;
+    }
     
 }
