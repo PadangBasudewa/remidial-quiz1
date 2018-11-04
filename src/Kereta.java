@@ -22,5 +22,10 @@ public class Kereta {
     public int getGerbong(){
         return gerbong;
     }
-    
+     public void setNamaKereta(String namaKereta){
+        this.namaKereta = namaKereta;
+    }
+    public void setGerbong(int gerbong){
+        this.gerbong = gerbong;
+    }
 }
