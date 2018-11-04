@@ -26,5 +26,14 @@ public class Tiket {
     public double HargaTiket(){
         return hargaTiket;
     }
+    public void setTujuan(String tujuan){
+        this.tujuan = tujuan;
+    }
+    public void setNoduduk(int noDuduk){
+        this.noDuduk = noDuduk;
+    }
+    public void setHargaTiket(double hargaTiket){
+        this.hargaTiket = hargaTiket;
+    }
     
 }
